@@ -1,4 +1,4 @@
-# How to Triggering Dataform (GCP's version of dbt) via Cloud Function
+# How to Trigger Dataform (GCP's version of dbt) via Cloud Function
 
 ## Overview
 Cloud Function code to trigger Dataform via API call.  This code uses the <i>google.cloud.dataform_v1beta1</i> library to trigger a Google Bigquery Dataform workflow as defined by the variables set in config.py. 
